@@ -1,0 +1,31 @@
+[package]
+name = "wtcat"
+version = "0.1.0"
+edition = "2021"
+authors = ["pvr"]
+license = "MIT"
+description = "WebTransport CLI client for testing - like wscat for WebSocket"
+repository = "https://github.com/YOUR_USERNAME/wtcat"
+homepage = "https://github.com/YOUR_USERNAME/wtcat"
+documentation = "https://docs.rs/wtcat"
+readme = "README.md"
+keywords = ["webtransport", "http3", "quic", "cli", "testing"]
+categories = ["command-line-utilities", "network-programming", "development-tools"]
+
+[dependencies]
+# Async runtime
+tokio = { version = "1.0", features = ["full"] }
+
+# QUIC/WebTransport
+quinn = "0.11"
+rustls = { version = "0.23", features = ["ring"] }
+
+# CLI
+clap = { version = "4.5", features = ["derive"] }
+
+# HTTP client for auth
+reqwest = { version = "0.12", features = ["json"] }
+
+# JSON handling
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
