@@ -26,7 +26,7 @@ cargo install wtcat
 ### From source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/wtcat.git
+git clone https://github.com/pervrosen/wtcat.git
 cd wtcat
 cargo install --path .
 ```
@@ -329,7 +329,7 @@ wtcat uses the QUIC protocol (HTTP/3) to establish WebTransport connections:
 ### Building from source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/wtcat.git
+git clone https://github.com/pervrosen/wtcat.git
 cd wtcat
 cargo build --release
 ```
@@ -376,8 +376,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - 📖 [Documentation](https://docs.rs/wtcat)
-- 🐛 [Issue Tracker](https://github.com/YOUR_USERNAME/wtcat/issues)
-- 💬 [Discussions](https://github.com/YOUR_USERNAME/wtcat/discussions)
+- 🐛 [Issue Tracker](https://github.com/pervrosen/wtcat/issues)
+- 💬 [Discussions](https://github.com/pervrosen/wtcat/discussions)
 
 ---
 
