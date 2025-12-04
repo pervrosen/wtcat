@@ -1,7 +1,9 @@
 # wtcat - WebTransport CLI Client
 
 [![Crates.io](https://img.shields.io/crates/v/wtcat.svg)](https://crates.io/crates/wtcat)
+[![Documentation](https://docs.rs/wtcat/badge.svg)](https://docs.rs/wtcat)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Downloads](https://img.shields.io/crates/d/wtcat.svg)](https://crates.io/crates/wtcat)
 
 **wtcat** is a WebTransport CLI client for testing and debugging, similar to how `wscat` is used for WebSocket connections. It provides an easy way to connect to WebTransport servers, test authentication, and monitor real-time message streams.
 
